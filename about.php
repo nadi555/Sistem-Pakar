@@ -44,12 +44,7 @@
       <div class="panel panel-success">
       <div class="panel-heading">Dibuat Oleh :</div>
       <div class="panel-body">
-          Dony Prasetyo<br>
-          Rahayu Tri Wahyuni<br>
-          Dikki Setiawan<br>
-          Lyli Wijaya<br>
-          Muhammad Faiz Akmal<br>
-          Damar Dananjayal<br>
+          M. Ridwan Sidik<br>
           </div>
     </div>
     </div>

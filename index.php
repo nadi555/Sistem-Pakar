@@ -9,7 +9,7 @@ header("location: about.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sistem Pakar</title>
+  <title>SISTEM PENDETEKSI PENYAKIT TANAMAN JAGUNG</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -47,11 +47,10 @@ header("location: about.php");
       <p><a href="daftarpenyakit.php"><button type="button" class="btn btn-primary btn-block">DAFTAR PENYAKIT</button></a></p>
       <p><a href="about.php"><button type="button" class="btn btn-primary btn-block">ABOUT</button></a></p>
       <br><br><br><br><br><br><br><br><br><br>
-      <p><button type="button" class="btn btn-primary btn-block" id="myBtn">LOGIN</button></p>
+      <p><button type="button" class="btn btn-primary btn-block" id="myBtn">LOGIN <i class="glyphicon glyphicon-log-in"></i></button></p>
     </div>
     <div class="col-sm-8 text-left"> 
-      <center><h2>SISTEM PAKAR DIAGNOSA HAMA DAN PENYAKIT TANAMAN BAWANG MERAH DAN CABAI
-</h2></center><br>
+      <center><h3>SISTEM PAKAR DIAGNOSA PENYAKIT PADA TANAMAN JAGUNG</h3></center><br>
         <div class="panel panel-info">
                 <div class="panel-heading"></div>
                 <div class="panel-body">
@@ -68,7 +67,7 @@ header("location: about.php");
     
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
+        <div class="modal-header" style="padding:25px 20px;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
         </div>
@@ -76,13 +75,13 @@ header("location: about.php");
           <form role="form" method="post" action="ceklogin.php">
             <div class="form-group" method="post">
               <label for="username"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" name="username" id="password" placeholder="Enter username">
+              <input type="text" class="form-control" name="username" id="password" placeholder="Enter username" autocomplete="autocomplete">
             </div>
             <div class="form-group" method="post">
               <label for="password"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
               <input type="password" class="form-control" name="password" id="password" placeholder="Enter password">
             </div>
-              <button type="submit" id="submit" nama="submit" class="btn btn-primary btn-block" method="post"><span class="glyphicon glyphicon-off"></span> Login</button>
+              <button type="submit" id="submit" nama="submit" class="btn btn-primary btn-block" method="post"><i class="glyphicon glyphicon-log-in"></i></span> Login</button>
           </form>     
             
         </div>
@@ -95,7 +94,7 @@ header("location: about.php");
   </div> 
 
 <footer class="container-fluid text-center">
-  <p>S1-Sistem Informasi 2013</p>
+  <p>Sistem Pakar Penyakit Pada Tanaman Jagung ©2020</p>
 </footer>
 
 <script>
